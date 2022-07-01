@@ -1,4 +1,4 @@
-#includest<stdio.h>
+#include<stdio.h>
 /**
  * main - start
  * Return: Always 0 (Success)
