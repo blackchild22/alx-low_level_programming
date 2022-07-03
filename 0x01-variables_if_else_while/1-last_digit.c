@@ -3,12 +3,10 @@
 #include<stdio.h>
 /*more header goes there */
 /**
- *
  * main - Entry point
  *
- * Return: Always 0 (Success)
- *
- */
+ * Return: Always 0(Success) 
+ */ 
 /* betty style doc for function main goes there */
 int main(void)
 {
@@ -22,7 +20,7 @@ int main(void)
 	{
 		printf("Last digit of %d is %d and is greater than 5\n", n, a);
 	}
-	else if (n == 0) 
+	else if (a == 0) 
 	{
 		printf("Last digit of %d is %d and is 0\n", n, a); 
 	}
