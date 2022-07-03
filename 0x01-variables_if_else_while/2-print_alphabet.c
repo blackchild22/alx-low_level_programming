@@ -8,7 +8,7 @@ int main(void)
 {
 	int ch;
 	char str[27] = "abcdefghijklmnopqrstuvwxyz";
-	
+
 	for (ch = 0 ; ch < 26 ; ch++)
 	{
 		putchar(str[ch]);
