@@ -2,8 +2,14 @@
 #include <time.h>
 #include <stdio.h>
 /* more headers goes there */
-/* main - Entry point*/
+/* main - Entry point */
 /* betty style doc for function main goes there */
+/**
+ *
+ * main - Entry point
+ *
+ * Return: 0 (Success)
+ */
 int main(void)
 {
 	int n;
@@ -13,11 +19,11 @@ int main(void)
 	/* your code goes there */
 	if(n > 0)
 	{
-		printf("%d is positive\n", n);
+		printf ("%d is positive\n", n);
 	}
 	else if(n == 0)
 	{
-		printf("%d is zero\n", n);
+		printf ("%d is zero\n", n);
 	}
 	else 
 	{
