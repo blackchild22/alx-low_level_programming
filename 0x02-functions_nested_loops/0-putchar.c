@@ -1,11 +1,8 @@
 #include "main.h"
 
 /**
-<<<<<<< HEAD
- * main - Program to output _putchar to the standard output 
-=======
  * main - Program to output _putchar to the standard output
->>>>>>> 8079a4f001ad4acf73f8b438b6fedf40ffbf3048
+ * main - Program to output _putchar to the standard output
  *
  * Return: 0
  *
