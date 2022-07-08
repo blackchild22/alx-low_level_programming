@@ -1,27 +1,26 @@
-#include "main.h"
+#include "main.h"
 
 /**
-  *
-  * print_line - Program to print lines using '_'
-  *
-  * Return: void
-  *
-  * @n: integer input
-  */
+ * print_line - program to print lines using '_'.
+ * 
+ * Return: void
+ *
+ * @n: integer input
+ */ 
 
- void print_line(int n)
- {
-         int i;
+void print_line(int n)
+{
+	int i;
 
-	if (n <= 0)
+	if (n <= 0)
 	{
-		 _putchar('\n');
+		 _putchar('\n');
 	}
 	else
 	{
-		for (i = 0; i < n; i++)
+		for (i = 0; i < n; i++)
 		{
-			_putchar('_');
+			_putchar('_'); 
 		}
 		_putchar('\n');
 	}

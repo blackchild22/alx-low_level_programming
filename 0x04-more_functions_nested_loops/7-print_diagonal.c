@@ -1,4 +1,4 @@
-#include "main.c"
+#include "main.h"
 
 /**
  * print_diagonal - program to print the diagonal using \
@@ -9,7 +9,7 @@
  */
 void print_diagonal(int n)
 {
-	int n;
+	int i, j;
 
 	if (n > 0)
 	{

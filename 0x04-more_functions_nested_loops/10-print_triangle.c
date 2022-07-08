@@ -1,9 +1,9 @@
-#include "main.c"
+#include "main.h"
 
 /**
  * print_triangle - a program to draw a triangle using #
  *
- * @size - size of the triangle
+ * @size: size of triangle.
  *
  * Return: void
  */
