@@ -1,13 +1,11 @@
 #include "main.h"
 
 /**
- * print_most_numbers - Prints the digits except 2 and 4
+ * print_most_numbers - prints the digits except 2 and 4
  *
  * Return: void
- *
  */
-
-void print_most_numbers(void)
+void print_most_numbers(void)
 {
 	int i;
 
@@ -17,7 +15,7 @@ void print_most_numbers(void)
 		{
 			continue;
 		}
-		else
+		else 
 		{
 			_putchar(i + '0');
 		}

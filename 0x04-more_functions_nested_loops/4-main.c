@@ -1,12 +1,12 @@
-#include "main.h"
+#include "maim.h"
 
 /**
- * main - check the code.
+ * main - checks the code
  *
  * Return: Always 0.
  */
 int main(void)
 {
-	printf_most_numbers();
+	print_most_numbers();
 	return (0);
 }

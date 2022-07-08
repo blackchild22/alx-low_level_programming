@@ -1,7 +1,7 @@
-#include "main.h"
+#include "main.h'
 
 /**
- * mul - program to multiply two integers
+ * mul - a program to multiply two integers
  *
  * @a: input 1
  *

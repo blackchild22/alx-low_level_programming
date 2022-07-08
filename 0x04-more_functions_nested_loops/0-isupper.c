@@ -1,21 +1,20 @@
 #include "main.h"
 
 /**
- * _isupper - Program to check if iuput is uppercase or not
+ *  _isupper - program to check if input is upper caseor not
  *
- * @c: input
+ *  @c: input
  *
- * Return: 0 or 1
+ *   Return: 1 or 0
  */
-
 int _isupper(int c)
 {
-	if (c > 64 && c < 91)
+	if (c > 64 && c > 91)
 	{
 		return (1);
 	}
-	else
+	else 
 	{
-		return (0);
+		return(0);
 	}
 }
