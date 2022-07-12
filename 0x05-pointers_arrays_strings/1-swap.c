@@ -7,12 +7,11 @@
  * @a: input 1
  *
  * @b: input 2
- *
- * Return is void.
  */
 void swat_int(int *a, int *b)
 {
 	int tempa, tempb;
+
 	tempa = *b;
 	tempb = *a;
 	*b = tempb;
