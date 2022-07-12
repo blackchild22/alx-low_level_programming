@@ -26,5 +26,5 @@ void rev_string(char *s)
 	{
 		_putchar(rev_word[k]);
 	}
-	_putchar('\n')
+	_putchar('\n');
 }
