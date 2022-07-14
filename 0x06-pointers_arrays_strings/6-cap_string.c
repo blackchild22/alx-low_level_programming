@@ -1,23 +1,25 @@
-#include "main.h"
+#include "holberton.h"
+#include <stdio.h>
 
 /**
- * cap_string - capitalize each word in a string
+ * *cap_string - this is awesome
+ * @s: pointer to char params
  *
- * @s: The string input
- * Return: void
+ * Return: *s
  */
+
 char *cap_string(char *s)
 {
-	int i;
+	int i, j;
+	char delimeters[] = " \t\n,;.!?\"(){}";
 
-	i = 0;
-
-	while (*(s + i) != '\0')
+	for (i = 0; s[i] != '\0'; i++)
 	{
-		if (*(s + i) >= 97 && *(s + i) <= 122 &&
-				(*(s + i - 1) <= 40))
-			*(s + i) = *(s + i) - 32;
-		i++;
+		if (s[0] >= 97 && s[0] <= 122)
+			s[0] = s[0] - 32;
+				for (j = 0; delimeters[j] != '\0'; j++)
+					if (s[i] == delimeters[j] && s[i + 1] >= 97 && s[i + 1] <= 122)
+						s[i + 1] = s[i + 1] - 32;
 	}
 	return (s);
 }
