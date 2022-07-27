@@ -1,4 +1,3 @@
-(47 sloc)  797 Bytes
 #include "main.h"
 #include "holberton.h"
 #include <stdlib.h>
