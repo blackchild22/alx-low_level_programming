@@ -3,7 +3,7 @@
 
 /**
  * free_dog - free dog memory
- *   *
+ *
  * @d: pointer to dog struct
  * Return: void
  */
