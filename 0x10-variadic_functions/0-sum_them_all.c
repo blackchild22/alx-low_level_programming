@@ -1,6 +1,5 @@
 #include <stdlib.h>
 #include <stdarg.h>
-
 /**
  * sum_them_all - sum all the input passed to the function
  *
