@@ -1,6 +1,6 @@
 #include "lists.h"
 #include <string.h>
-/*
+/**
  * _strlen - lenght of string
  * @s:char
  * Return:int
@@ -16,7 +16,7 @@ unsigned int _strlen(char *s)
 	return (i);
 }
 
-/*
+/**
  * add_node - adding node
  * @head:last node list
  * @str:string

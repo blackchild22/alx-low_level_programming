@@ -1,6 +1,6 @@
 #include "lists.h"
 
-/*
+/**
  * list_len - number of elements in a linked list_t list.
  * @h: pointer
  * Return: number of nodes in the list

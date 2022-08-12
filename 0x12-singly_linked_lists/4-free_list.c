@@ -1,6 +1,6 @@
 #include "lists.h"
 
-/*
+/**
  * free_list - Frees a list_t
  * @head: A pointer to the list_t
  * Return:void

@@ -1,7 +1,7 @@
 #include "lists.h"
 #include <string.h>
 
-/*
+/**
  * _strlen - lenght of string
  * @s:char
  * Return:int
@@ -16,7 +16,7 @@ unsigned int _strlen(char *s)
 	}
 	return (i);
 }
-/*
+/**
  * add_node_end - add new node at the end of the list
  * @head:pointer to ponter to lined list
  * @str : ponter to string inside the list
