@@ -1,23 +1,21 @@
 #include "lists.h"
+#include <stdlib.h>
 
 /**
- * free_listint2 - free the listint_t list
- *
- * @head: Pointer to the head of the list
- * Return: void
- */
+ * free_listint2 - Frees a list.
+ * @head: Address of the first node of a list.
+ **/
+
 void free_listint2(listint_t **head)
 {
-	int i;
-	listint_t *hold, *node;
+	listint_t *temp;
 
-	node = *head;
-
-	for (i = 0; node != NULL; i++)
+	if (head == NULL)
+		return;
+	while (*head != NULL)
 	{
-		hold = node->next;
-		free(node);
-		node = hold;
+		temp = (*head)->next;
+		free(*head);
+		*head = temp;
 	}
-	*head = NULL;
 }
